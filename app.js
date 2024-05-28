@@ -1,4 +1,5 @@
-document.getElementById('titleBtn').addEventListener('click', () => {
+let b = document.getElementById('titleBtn');
+b.addEventListener('click', () => {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
       let activeTab = tabs[0];
       let title = activeTab.title;
