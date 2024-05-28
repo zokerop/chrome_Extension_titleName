@@ -1,0 +1,16 @@
+
+
+{
+    "manifest_version": 3,
+    "name": "Title Picker",
+    "description": "A Chrome extension that picks up the title of the current webpage",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html"
+      
+    },
+    "permissions": ["activeTab"],
+    "icons":{
+        "42":"title.png"
+    }
+  }
